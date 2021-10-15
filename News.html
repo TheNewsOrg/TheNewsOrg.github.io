@@ -5,6 +5,7 @@
         <head>
   
             <link rel="icon" href="TheNewsYorkTime.github.io/Images/Asa.png" width=5px height=5px>
+            <script type="text/javascript" src="https://raw.githubusercontent.com/TheNewsOrg/TheNewsOrg.github.io/main/article.js"></script>
             <meta charset="utf-8">
             <title>News</title>
             <style> 
@@ -41,22 +42,7 @@
             
         </head>
  <body>
-   <script>
-       function load() {
-    var file = new XMLHttpRequest();
-    file.open("GET", "", true);
-    file.onreadystatechange = function() {
-      if (file.readyState === 4) {  // Makes sure the document is ready to parse
-        if (file.status === 200) {  // Makes sure it's found the file
-          text = file.responseText;
-          document.getElementById("article").innerHTML = text;
-        }
-      }
-    }
-}
-
-window.onLoad = load();
-       </script>
+   
      
     <h1 id = "header" align= 'center'>News</h1>
      
