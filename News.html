@@ -34,11 +34,30 @@
                     line-height:18px;
                     
                 }
+                article, {
+                align-left;
+                }
             </style>
             
         </head>
  <body>
-   
+   <script>
+       function load() {
+    var file = new XMLHttpRequest();
+    file.open("GET", "", true);
+    file.onreadystatechange = function() {
+      if (file.readyState === 4) {  // Makes sure the document is ready to parse
+        if (file.status === 200) {  // Makes sure it's found the file
+          text = file.responseText;
+          document.getElementById("article").innerHTML = text;
+        }
+      }
+    }
+}
+
+window.onLoad = load();
+       </script>
+     
     <h1 id = "header" align= 'center'>News</h1>
      
  <h3>Book Recomendation</h3>
@@ -53,4 +72,7 @@
             </p>
 
      <h3>Coding Project Recomendation</h3>
-     <p><a href= "https://www.khanacademy.org/computer-programming/random-infected-walkers/5898727056359424">Random Infected Walkers.
+     <p><a href= "https://www.khanacademy.org/computer-programming/survive-14-beta/5626363876786176">Check out Survive.
+<div id = "article">
+    
+    </div>
