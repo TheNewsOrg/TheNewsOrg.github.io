@@ -51,7 +51,7 @@
    
      function load() {
     var file = new XMLHttpRequest();
-    file.open("GET", "article.txt", true);
+    file.open("GET", "https://thenewsorg.github.io/article.txt", true);
     file.onreadystatechange = function() {
       if (file.readyState === 4) {  // Makes sure the document is ready to parse
         if (file.status === 200) {  // Makes sure it's found the file
