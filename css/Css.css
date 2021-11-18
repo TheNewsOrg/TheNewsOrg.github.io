@@ -1,7 +1,10 @@
- body {
+                body{
+                 background:#008080;
+                }
                 a:link{
                     color:#00ff00;
                 }
+                
                 a:visited{
                     color:#33ff66;
                 }
@@ -18,8 +21,20 @@
                     height:250px;
                     text-wrap:false;
                 }
-                h3, {
+                h3 {
                     margin-left:20px;
                     line-height:18px;
                     
-}
+                }
+                #article {
+                align:right;
+                height:200px;
+                width:200px;
+                border:dashed;
+                text-color:red;
+                text-wrap:true;
+                }
+                
+                h5 {
+                color:Grey;
+                }
