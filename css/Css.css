@@ -27,7 +27,8 @@
                     
                 }
                 #article {
-                float:right;
+                position: absolute;
+                right: 0;
                 height:200px;
                 width:200px;
                 border:dashed;
