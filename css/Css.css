@@ -26,6 +26,10 @@
                     line-height:18px;
                     
                 }
+                div, #article{
+                  position:relative
+                }
+                
                 #article {
                 position: absolute;
                 right: 0;
