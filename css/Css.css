@@ -26,11 +26,8 @@
                     line-height:18px;
                     
                 }
-                .article{
-                  position:relative
-                }
-                
-                div .article {
+               
+                .article {
                 position: absolute;
                 right: 0;
                 height:200px;
