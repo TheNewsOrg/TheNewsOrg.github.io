@@ -1,6 +1,7 @@
 :root {
   --background2:#4d7f71;
   --background3:#007f71;
+  --colormix:color-mix(var(--background2) 50%, var(--background3));
 }
 body{
   background:#008080;
@@ -40,7 +41,7 @@ h5 {
   color:Grey;
 }
 .button {
-  color:color-mix(var(--background2) 50%, var(--background3));
+  color:var(--colormix);
   font-size:1em;
   font-family:"serif";
   background-color:#0f7f50;
