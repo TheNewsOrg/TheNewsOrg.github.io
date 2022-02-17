@@ -42,12 +42,11 @@ h4 {
 }
 .button {
   color:var(--colormix);
-  font-size:10px;
+  font-size:15px;
   font-family:"serif";
   background-color:#0f7f50;
   border-style:outset;
-  border-width:5px;
-
+  border-width:4px;
   cursor:pointer;
   margins:10px;
 }
