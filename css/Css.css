@@ -59,6 +59,7 @@ div.sidebar {
     border-style:solid;
     background:var(--background2);
     position:fixed;
+    float:right;
     width:20%;
     height:100%
     }
