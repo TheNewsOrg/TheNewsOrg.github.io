@@ -54,3 +54,11 @@ button a {
   text-decoration:none;
   color:var(--colormix);
 }
+
+div.sidebar {
+    border-style:solid;
+    background:var(--background2);
+    position:fixed;
+    width:20%;
+    height:100%
+    }
