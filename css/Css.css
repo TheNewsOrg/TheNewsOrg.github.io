@@ -50,7 +50,7 @@ h4 {
   cursor:pointer;
   margins:10px;
 }
-a.button {
+button a {
   text-decoration:none;
   color:var(--colormix);
 }
