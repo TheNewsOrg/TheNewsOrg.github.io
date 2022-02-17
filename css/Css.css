@@ -44,7 +44,7 @@ h5 {
   font-size:1em;
   font-family:"serif";
   background-color:#0f7f50;
-  border-style: hidden;
   text-decoration:none;
   cursor:pointer;
+  padding:10px;
 }
