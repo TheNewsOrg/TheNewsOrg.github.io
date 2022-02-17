@@ -41,7 +41,7 @@ h5 {
 }
 .button {
   color:color-mix(var(--background2) 50%, var(--background3));
-  font-size:1.5em;
+  font-size:1em;
   font-family:"serif";
   background-color:#0f7f50;
   border-style: hidden;
