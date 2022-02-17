@@ -1,52 +1,50 @@
-                body{
-                 background:#008080;
-                }
-                a:link{
-                    color:#00ff00;
-                }
-                
-                a:visited{
-                    color:#33ff66;
-                }
-                #header {
-                    background-color:#006666;
-                    margin-left:20px;
-                    margin-right:20px;
-                }
-                #Cover {
-                    float:left;
-                    bottom:500px;
-                    margin:20px;
-                    background-color:#50f354;
-                    height:250px;
-                    text-wrap:false;
-                }
-                h3 {
-                    margin-left:20px;
-                    line-height:18px;
-                    
-                }
+:root {
+  --background2:#4d7f71;
+  --background3:#007f71;
+}
+body{
+  background:#008080;
+  }      
+a:link{
+  color:#00ff00;
+}
+a:visited{
+  color:#33ff66;
+}
+#header {
+  background-color:#006666;
+  margin-left:20px;
+  margin-right:20px;
+}
+#Cover {
+  float:left;
+  bottom:500px;
+  margin:20px;
+  background-color:#50f354;
+  height:250px;                    
+}
+h3 {
+  margin-left:20px;
+  line-height:18px;
+}
                
-                .article {
-                position: absolute;
-                right: 0;
-                height:200px;
-                width:200px;
-                border:dashed;
-                text-color:red;
-                text-wrap:true;
-                }
-                
-                h5 {
-                color:Grey;
-                }
-
-                .button {
-                  text-color:#496f;
-                  text-size:15px;
-                  font-family:"serif";
-                  background-color:#0f7f50;
-                  border: "none";
-                  text-decoration:none;
-                  cursor:pointer;
-                }
+.article {
+  position: absolute;
+  right: 0;
+  height:200px;
+  width:200px;
+  border:dashed;
+  color:red;
+}
+h5 {
+  color:Grey;
+}
+.button {
+  color:color-mix(var(--background2) 50%, var(--background3));
+  font-size:1.5em;
+  font-family:"serif";
+  background-color:#0f7f50;
+  border-style: hidden;
+  text-decoration:none;
+  cursor:pointer;
+}
