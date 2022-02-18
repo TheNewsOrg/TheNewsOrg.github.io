@@ -61,5 +61,11 @@ div.sidebar {
     right: 0;
     top: 0;
     width:20%;
-    height:100%
+    height:99%
     }
+h1.sidebar-head {
+text-align: center;
+}
+div.sidebar ul li {
+  list-style-type: none;
+}
