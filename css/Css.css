@@ -48,7 +48,7 @@ h4 {
   border-style:outset;
   border-width:4px;
   cursor:pointer;
-  margins:10px;
+  margin:10px;
 }
 button a {
   text-decoration:none;
@@ -59,7 +59,8 @@ div.sidebar {
     border-style:solid;
     background:var(--background2);
     position:fixed;
-    float:right;
+    right: 0;
+    top: 0;
     width:20%;
     height:100%
     }
