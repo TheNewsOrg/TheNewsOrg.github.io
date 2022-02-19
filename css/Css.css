@@ -68,4 +68,9 @@ text-align: center;
 }
 div.sidebar ul li {
   list-style-type: none;
+  margin: 5px;
+}
+object {
+  width: 79%;
+  height: 89vh;
 }
