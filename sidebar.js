@@ -1,15 +1,13 @@
-const archivelis = Document.querySlectorAll("div.sidebar ul li");
+//const archivelis = Document.querySlectorAll("div.sidebar ul li");
 
-console.log(archivelis);
-
-archivelis.onclick = function () {load()};
-
-function load (archive) {
-    for (let i = 0; i < archivelis.length; i++) {
-        const archiveli = archivelis[i];
-				
-        var num = i + 1;
-        archiveli.data === 'Article Archive ' + num + '.txt';
-        console.log(archiveli.data);
+function load(element) {
+    var sibs = [];
+    while (element = element.previousSibling) {
+        if (element.nodeType === 1) continue; 
+        sibs.push(element);
+        console.log(element.innerHTML)
     }
+    var Index = sibs.length;
+    element.data === 'Article Archive ' + Index + '.txt';
+    console.log(Index.data);
 }
