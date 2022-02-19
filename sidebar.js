@@ -1,5 +1,3 @@
-//const archivelis = Document.querySlectorAll("div.sidebar ul li");
-
 function load(element) {
     var sibs = [];
     const obj = document.querySelector("object");
@@ -10,5 +8,5 @@ function load(element) {
     }
     var Index = sibs.length;
     
-    obj.data = 'Article Archive ' + Index + '.html';
+    obj.data = `Article Archive ${Index}.html`;
 }
