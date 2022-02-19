@@ -10,5 +10,5 @@ function load(element) {
     }
     var Index = sibs.length;
     
-    obj.data = 'Article Archive ' + Index + '.txt';
+    obj.data = 'Article Archive ' + Index + '.html';
 }
