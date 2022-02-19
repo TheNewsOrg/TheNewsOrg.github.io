@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Attach to Edge",
+            "port": 5500,
+            "request": "attach",
+            "type": "pwa-msedge",
+            "webRoot": "${workspaceFolder}"
+        },
+
+    {
+        "name": "Attach to Firefox",
+        "port": 5500,
+        "request": "attach",
+        "type": "firefox"
+    },
+        {
             "name": "Launch Edge",
             "request": "launch",
             "type": "pwa-msedge",

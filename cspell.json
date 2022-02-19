@@ -3,7 +3,12 @@
     "ignorePaths": [],
     "dictionaryDefinitions": [],
     "dictionaries": [],
-    "words": [],
-    "ignoreWords": ["All changes, tracked and untracked, appear together and behave equally."],
+    "words": [
+        "Bertman",
+        "Chambliss"
+    ],
+    "ignoreWords": [
+        "All changes, tracked and untracked, appear together and behave equally."
+    ],
     "import": []
 }
