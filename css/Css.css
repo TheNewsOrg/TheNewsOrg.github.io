@@ -1,5 +1,5 @@
 :root {
-  --background2:#0f7f50;
+  --background2: #0c4842;
   --background3:#008080;
   overflow: hidden;
 }
@@ -50,7 +50,7 @@ a:visited{
 .button {
   font-size:15px;
   font-family:"serif";
-  background-color: var(--background2);
+  background-color: #0f7f50;
   border-style:outset;
   border-width:4px;
   cursor:pointer;
@@ -64,12 +64,12 @@ button a {
 } 
 div.sidebar {
     border-style:solid;
-    background:var(--background2);
+    background: #4d7f71;
     position:fixed;
     right: 0;
     top: 0;
     width:20%;
-    height:99%
+    height:99%;
     }
 h1.sidebar-head {
 text-align: center;
