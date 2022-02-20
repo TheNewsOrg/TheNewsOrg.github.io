@@ -1,11 +1,23 @@
 :root {
-  --background2:#4d7f71;
-  --background3:#007f71;
-  --colormix:color-mix(var(--background2) 50%, var(--background3));
+  --background2:#0f7f50;
+  --background3:#008080;
+  overflow: hidden;
 }
-body{
-  background:#008080;
-  }      
+body {
+  background: var(--background3);
+}
+h3 {
+  margin-top: 20px;
+  margin-left:20px;
+  line-height:18px;
+}
+h4 {
+  color:Grey;
+}
+object {
+  width: 79%;
+  height: 89vh;
+}
 a:link{
   color:#00ff00;
 }
@@ -14,7 +26,11 @@ a:visited{
 }
 #header {
   background-color:#006666;
+  display: outside;
   text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 #Cover {
   float:left;
@@ -22,10 +38,6 @@ a:visited{
   margin:20px;
   background-color:#50f354;
   height:250px;                    
-}
-h3 {
-  margin-left:20px;
-  line-height:18px;
 }
 .article {
   position: absolute;
@@ -35,24 +47,21 @@ h3 {
   border:dashed;
   color:red;
 }
-h4 {
-  color:Grey;
-}
 .button {
-  color:var(--colormix);
   font-size:15px;
   font-family:"serif";
-  background-color:#0f7f50;
+  background-color: var(--background2);
   border-style:outset;
   border-width:4px;
   cursor:pointer;
-  margin:10px;
+  display: block;
+  margin-top: 40px;
+  margin-left: 10px;
 }
 button a {
   text-decoration:none;
-  color:var(--colormix);
-}
-
+  color:#0c4842 !important; 
+} 
 div.sidebar {
     border-style:solid;
     background:var(--background2);
@@ -69,12 +78,9 @@ div.sidebar ul li {
   list-style-type: none;
   margin: 10px;
 }
-object {
-  width: 79%;
-  height: 89vh;
-}
-.home {
-  background-image: url(./Home.jpg);
-  width: 10px;
-  height: 10px;
+.home img{
+  width: 50px;
+  height: 50px;
+  position:absolute;
+
 }
