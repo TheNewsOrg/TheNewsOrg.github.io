@@ -14,7 +14,7 @@ h3 {
 h4 {
   color:Grey;
 }
-object {
+archive-display {
   width: 79%;
   height: 89vh;
 }
@@ -42,8 +42,8 @@ a:visited{
 .article {
   position: absolute;
   right: 0;
-  height:200px;
-  width:200px;
+  height:940px;
+  width:auto;
   border:dashed;
   color:red;
 }
