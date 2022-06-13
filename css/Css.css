@@ -46,6 +46,7 @@ a:visited{
   width:auto;
   border:dashed;
   color:red;
+  color:grey;
 }
 .button {
   font-size:15px;
