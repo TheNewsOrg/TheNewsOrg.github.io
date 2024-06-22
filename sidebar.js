@@ -6,7 +6,7 @@ function load(element) {
         if (element.nodeType === 1) continue; 
         sibs.push(element);
     }
-    var Index = sibs.length;
+    var index = sibs.length;
     
-    obj.data = `Article Archive ${Index}.html`;
+    obj.data = `Article Archive ${index}.html`;
 }
