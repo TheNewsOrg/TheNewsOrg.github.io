@@ -3,7 +3,7 @@
 <html lang="en">
 
   <head>
-    <title>The News Org Article Archive.</title>
+    <title>The News Org Article Archive</title>
     <link rel="icon" href="./Images/logo.jpg">
     <link rel="stylesheet" href="./css/Css.css">
     <script src="./sidebar.js"></script>
@@ -14,23 +14,40 @@
 
   <body>
     <header>
-      <a href="./index.html" class="home" aria-label="Home">
-        <img src="./Images/Home.jpg" alt="Home Link">
-      </a>
-      <h1>Archive</h1>
+      <div>
+        <a href="./index.html" class="home" aria-label="Home">
+          <img src="./Images/Home.jpg" alt="Home Link">
+        </a>
+        <h1>Ashes News Org - Archive</h1>
+      </div>
+      <ul>
+        <li>
+          <a href="/News"> Go to News</a>
+        </li>
+        <li>
+          <a href="/Archive"> View past articles</a>
+        </li>
+        <li>
+          <a href="/webring.html">Webring</a>
+        </li>
+      </ul>
     </header>
     <div class="sidebar">
       <h1 class="sidebar-head">Articles</h1>
       <ul>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article Archive 1</li>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article Archive 2</li>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article Archive 3</li>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article Archive 4</li>
+        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+          Archive 1</li>
+        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+          Archive 2</li>
+        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+          Archive 3</li>
+        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+          Archive 4</li>
       </ul>
     </div>
     <p>Click on the text in the sidebar to view an archive.</p>
     <object id="archive-display" type="text/html" data=""></object>
-
+    <footer><p>&copy; Ashes 2024</p></footer>
   </body>
 
 </html>

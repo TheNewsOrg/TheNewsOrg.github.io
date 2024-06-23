@@ -1,20 +1,83 @@
 :root {
   --background2: #0c4842;
   --background3:#005252;
-  overflow: hidden;
 }
 body {
   background: var(--background3);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #ffffff;
+  height: 80vh;
+}
+.home img {
+  width: 50px;
+  height: 50px;
+  position: static;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  background: #00651F;
+  padding-left: 2em;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  margin: 1em;
+  margin-bottom: auto;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0.5em;
+
+  padding: inherit;
+}
+
+header li {
+  margin: 0.5em;
+  padding: 0.5em;
+  font-size: 0.75em;
+  background-color: #0b5134;
+  border-style: outset;
+  border-width: 4px;
+  cursor: pointer;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+footer {
+  display: flex;
+  background-color: #00651F;
+  justify-content: center;
+  margin: 2em;
+  padding: 0.5em;
+  border-radius: 0.5em;
+}
+footer p {
+  font-size: small;
 }
 h3 {
-  margin-top: 20px;
-  margin-left:20px;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
   line-height:18px;
 }
 h4 {
   color:Grey;
+}
+p {
+  margin: 0.2em;
 }
 #archive-display {
   width: 79%;
@@ -26,13 +89,8 @@ a:link{
 a:visited{
   color:#33ff66;
 }
-#header {
-  background-color:#006666;
-  display: outside;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
+#recommendations {
+  float: right;
 }
 #Cover {
   float:left;
@@ -42,29 +100,11 @@ a:visited{
   height:250px;                    
 }
 .article {
-  position: absolute;
-  right: 0;
-  height:940px;
-  width:auto;
-  border:dashed;
-  color:red;
-  color:grey;
+  height: 50%;
+  width: auto;
+  border: dashed;
 }
-button {
-  font-size: 15px;
-  font-family: "serif";
-  background-color: #0b5134;
-  border-style: outset;
-  border-width: 4px;
-  cursor: pointer;
-  display: block;
-  margin-top: 40px;
-  margin-left: 10px;
-}
-button a {
-  text-decoration:none;
-  color:#ffffff !important; 
-} 
+
 div.sidebar {
     border-style: solid;
     background: #4d7f71;
@@ -80,23 +120,22 @@ text-align: center;
 }
 div.sidebar ul li {
   list-style-type: none;
-  margin: 20px;
+  padding: 1em;
   cursor: pointer;
 }
-.home img{
-  width: 50px;
-  height: 50px;
-  position: static;
-}
 
-header {
+#webring {
   display: flex;
-  align-items: center;
-  margin: 2em;
-  padding: 0.5em;
-  border-radius: 0.5em;
-  background: #00651F;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  justify-content: center;
 }
-header h1 {
-  margin: 1em;
+#webring a {
+  display: block;
+  text-decoration: none;
+  padding: 0.2em;
+  margin: 3em;
+  border: 2px solid #73FCC5;
 }
