@@ -14,24 +14,26 @@
 
   <body>
     <header>
+      <a href="./index.html" class="home" aria-label="Home">
+        <img src="./Images/Home.jpg" alt="Home Link">
+      </a>
       <div>
-        <a href="./index.html" class="home" aria-label="Home">
-          <img src="./Images/Home.jpg" alt="Home Link">
-        </a>
         <h1>Ashes News Org - Archive</h1>
+        <ul>
+          <li>
+            <a href="/News"> Go to News</a>
+          </li>
+          <li>
+            <a href="/Archive"> View past articles</a>
+          </li>
+          <li>
+            <a href="/webring.html">Webring</a>
+          </li>
+        </ul>
       </div>
-      <ul>
-        <li>
-          <a href="/News"> Go to News</a>
-        </li>
-        <li>
-          <a href="/Archive"> View past articles</a>
-        </li>
-        <li>
-          <a href="/webring.html">Webring</a>
-        </li>
-      </ul>
+
     </header>
+    <p>Click on the text in the sidebar to view an archive.</p>
     <div class="sidebar">
       <h1 class="sidebar-head">Articles</h1>
       <ul>
@@ -45,8 +47,8 @@
           Archive 4</li>
       </ul>
     </div>
-    <p>Click on the text in the sidebar to view an archive.</p>
-    <object id="archive-display" type="text/html" data=""></object>
+
+    <iframe id="archive-display" type="text/html" src=""></iframe>
     <footer><p>&copy; Ashes 2024</p></footer>
   </body>
 

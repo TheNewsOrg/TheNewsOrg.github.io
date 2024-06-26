@@ -1,6 +1,6 @@
 function load(element) {
     var sibs = [];
-    const obj = document.querySelector("object");
+    const frame = document.querySelector("iframe");
     while (element.previousSibling != null) {
         element = element.previousSibling;
         if (element.nodeType === 1) continue; 
@@ -8,5 +8,5 @@ function load(element) {
     }
     var index = sibs.length;
     
-    obj.data = `Article Archive ${index}.html`;
+    frame.src = `Article Archive ${index}.html`;
 }

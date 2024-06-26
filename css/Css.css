@@ -8,29 +8,35 @@ body {
   color: #ffffff;
   height: 80vh;
 }
-.home img {
-  width: 50px;
-  height: 50px;
-  position: static;
-}
 
 header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: 2em;
-  padding: 0.5em;
+  padding: 0em;
   border-radius: 0.5em;
   background: #00651F;
-  padding-left: 2em;
 }
-
+.home img {
+  width: 100px;
+  height: 100px;
+  position: static;
+  margin: 0;
+  border-radius: 0.5em 0 0 0.5em;
+}
+.home {
+  width: 100px;
+  height: 100px;
+}
 header div {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 
 header h1 {
-  margin: 1em;
+  margin: auto;
   margin-bottom: auto;
 }
 
@@ -38,30 +44,29 @@ header ul {
   display: flex;
   align-items: center;
   list-style: none;
-  margin: 0.5em;
-
-  padding: inherit;
+  margin-bottom: 0;
 }
 
 header li {
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+header ul a {
+  text-decoration: none;
+  color: #ffffff !important;
   margin: 0.5em;
   padding: 0.5em;
   font-size: 0.75em;
   background-color: #0b5134;
   border-style: outset;
   border-width: 4px;
-  cursor: pointer;
-}
-
-header a {
-  text-decoration: none;
-  color: #ffffff !important;
 }
 footer {
   display: flex;
   background-color: #00651F;
   justify-content: center;
-  margin: 2em;
+  margin: 1.5em;
   padding: 0.5em;
   border-radius: 0.5em;
 }
@@ -80,8 +85,9 @@ p {
   margin: 0.2em;
 }
 #archive-display {
-  width: 79%;
-  height: 89vh;
+  width: 78%;
+  height: 82%;
+  border: 3px solid #ffffff
 }
 a:link{
   color:#73FCC5;
@@ -91,6 +97,7 @@ a:visited{
 }
 #recommendations {
   float: right;
+  height: 60%;
 }
 #Cover {
   float:left;
@@ -100,9 +107,12 @@ a:visited{
   height:250px;                    
 }
 .article {
-  height: 50%;
-  width: auto;
+  height: 60%;
+  width: 70%;
   border: dashed;
+  margin-left: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #ffffff;
 }
 
 div.sidebar {
@@ -112,8 +122,7 @@ div.sidebar {
     float: right;
     right: 0;
     top: 0;
-    width:20%;
-    height:99%;
+    width: 20%;
     }
 h1.sidebar-head {
 text-align: center;
