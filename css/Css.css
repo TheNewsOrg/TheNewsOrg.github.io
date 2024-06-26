@@ -1,7 +1,8 @@
 :root {
   --background2: #0c4842;
-  --background3:#005252;
+  --background3: #005252;
 }
+
 body {
   background: var(--background3);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -17,6 +18,7 @@ header {
   border-radius: 0.5em;
   background: #00651F;
 }
+
 .home img {
   width: 100px;
   height: 100px;
@@ -24,10 +26,12 @@ header {
   margin: 0;
   border-radius: 0.5em 0 0 0.5em;
 }
+
 .home {
   width: 100px;
   height: 100px;
 }
+
 header div {
   display: flex;
   flex-direction: column;
@@ -62,6 +66,7 @@ header ul a {
   border-style: outset;
   border-width: 4px;
 }
+
 footer {
   display: flex;
   background-color: #00651F;
@@ -70,63 +75,87 @@ footer {
   padding: 0.5em;
   border-radius: 0.5em;
 }
+
 footer p {
   font-size: small;
 }
-h3 {
+
+#recommendations h3 {
   margin-top: 0.5em;
+}
+
+#recommendations h4 {
+  color: Grey;
   margin-left: 0.5em;
-  line-height:18px;
 }
-h4 {
-  color:Grey;
-}
-p {
+
+#recommendations p {
   margin: 0.2em;
+  margin-left: 0.5em;
 }
+
+#recommendations a {
+  display: block;
+  margin-left: 0.5em;
+}
+
 #archive-display {
   width: 78%;
   height: 82%;
   border: 3px solid #ffffff
 }
-a:link{
-  color:#73FCC5;
+
+a:link {
+  color: #73FCC5;
 }
-a:visited{
-  color:#33ff66;
+
+a:visited {
+  color: #33ff66;
 }
+
+.news {
+  display: flex;
+}
+
 #recommendations {
-  float: right;
-  height: 60%;
+  margin: 1em;
 }
+#recommendations img {
+  margin: 0.5em;
+}
+
 #Cover {
-  float:left;
-  bottom:500px;
-  margin:20px;
-  background-color:#50f354;
-  height:250px;                    
+  float: left;
+  bottom: 500px;
+  margin: 20px;
+  background-color: #50f354;
+  height: 250px;
 }
+
 .article {
-  height: 60%;
-  width: 70%;
+  margin: 1em;
+  width: 60%;
+}
+
+.article-text {
   border: dashed;
-  margin-left: 1.5em;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffffff;
+  padding: 1em;
 }
 
 div.sidebar {
-    border-style: solid;
-    background: #4d7f71;
-    position: relative;
-    float: right;
-    right: 0;
-    top: 0;
-    width: 20%;
-    }
-h1.sidebar-head {
-text-align: center;
+  border-style: solid;
+  background: #4d7f71;
+  position: relative;
+  float: right;
+  right: 0;
+  top: 0;
+  width: 20%;
 }
+
+h1.sidebar-head {
+  text-align: center;
+}
+
 div.sidebar ul li {
   list-style-type: none;
   padding: 1em;
@@ -141,6 +170,7 @@ div.sidebar ul li {
   width: 80%;
   justify-content: center;
 }
+
 #webring a {
   display: block;
   text-decoration: none;
