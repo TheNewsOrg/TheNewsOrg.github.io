@@ -3,6 +3,17 @@
   --background3: #005252;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+header,
+nav,
+main,
+footer {
+  display: block;
+}
+
 body {
   background: var(--background3);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -49,6 +60,7 @@ header ul {
   align-items: center;
   list-style: none;
   margin-bottom: 0;
+  padding: 0;
 }
 
 header li {
@@ -74,6 +86,7 @@ footer {
   margin: 1.5em;
   padding: 0.5em;
   border-radius: 0.5em;
+  clear: both;
 }
 
 footer p {
@@ -120,6 +133,7 @@ a:visited {
 #recommendations {
   margin: 1em;
 }
+
 #recommendations img {
   margin: 0.5em;
 }
@@ -177,4 +191,53 @@ div.sidebar ul li {
   padding: 0.2em;
   margin: 3em;
   border: 2px solid #73FCC5;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    margin: 0;
+  }
+
+  header,
+  footer {
+    font-size: smaller;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  header h1 {
+    font-size: large;
+  }
+
+  .home img {
+    border-radius: 0;
+  }
+
+  header ul a {
+    margin: 0.25em;
+  }
+
+  .news {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article {
+    width: 90%;
+  }
+
+  #recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div.sidebar {
+  float: none;
+  width: 90%;
+  margin: auto;
+  }
+  #archive-display {
+    margin: auto auto;
+    width: 90%;
+  }
 }
