@@ -3,8 +3,8 @@
 <html lang="en">
 
   <head>
-    <title>The News Org Article Archive</title>
-    <link rel="icon" href="./images/logo.jpg">
+    <title>The News Org  &mdash;  Article Archive</title>
+    <link rel="icon" href="./images/logosmall.jpg">
     <link rel="stylesheet" href="./css/Css.css">
     <script src="./sidebar.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,17 +15,17 @@
   <body>
     <header>
       <a href="./index.html" class="home" aria-label="Home">
-        <img src="./Images/Home.jpg" alt="Home Link">
+        <img src="./images/Home.jpg" alt="Home Link">
       </a>
       <div>
         <h1>Ashes News Org - Archive</h1>
         <nav>
           <ul>
             <li>
-              <a href="/News"> Go to News</a>
+              <a href="/News.html"> Go to News</a>
             </li>
             <li>
-              <a href="/Archive"> View past articles</a>
+              <a href="/Archive.html"> View past articles</a>
             </li>
             <li>
               <a href="/webring.html">Webring</a>
@@ -35,22 +35,24 @@
       </div>
 
     </header>
-    <p>Click on the text in the sidebar to view an archive.</p>
-    <div class="sidebar">
-      <h1 class="sidebar-head">Articles</h1>
-      <ul>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
-          Archive 1</li>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
-          Archive 2</li>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
-          Archive 3</li>
-        <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
-          Archive 4</li>
-      </ul>
-    </div>
 
-    <iframe id="archive-display" type="text/html" src=""></iframe>
+    <div id="content" class="archive">
+      <p>Click on the text in the sidebar to view an archive.</p>
+      <div class="sidebar">
+        <h1 class="sidebar-head">Articles</h1>
+        <ul>
+          <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+            Archive 1</li>
+          <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+            Archive 2</li>
+          <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+            Archive 3</li>
+          <li onclick="load(this)" onfocus="load(this)" tabindex="0">Article
+            Archive 4</li>
+        </ul>
+      </div>
+      <iframe id="archive-display" type="text/html" src=""></iframe>
+    </div>
     <footer><p>&copy; Ashes 2024</p></footer>
   </body>
 

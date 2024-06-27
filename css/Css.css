@@ -1,243 +1,264 @@
 :root {
-  --background2: #0c4842;
-  --background3: #005252;
+	--background2: #0c4842;
+	--background3: #005252;
 }
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 header,
 nav,
 main,
 footer {
-  display: block;
+	display: block;
 }
 
 body {
-  background: var(--background3);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #ffffff;
-  height: 80vh;
+	background: var(--background3);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	color: #ffffff;
+	height: 80vh;
 }
 
 header {
-  display: flex;
-  flex-direction: row;
-  margin: 2em;
-  padding: 0em;
-  border-radius: 0.5em;
-  background: #00651F;
-}
-
-.home img {
-  width: 100px;
-  height: 100px;
-  position: static;
-  margin: 0;
-  border-radius: 0.5em 0 0 0.5em;
-}
-
-.home {
-  width: 100px;
-  height: 100px;
+	display: flex;
+	flex-direction: row;
+	margin: 2em;
+	padding: 0em;
+	border-radius: 0.5em;
+	background: #00651f;
 }
 
 header div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: auto;
 }
 
 header h1 {
-  margin: auto;
-  margin-bottom: auto;
+	margin: auto;
+	margin-bottom: auto;
 }
 
 header ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  margin-bottom: 0;
-  padding: 0;
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin-bottom: 0;
+	padding: 0;
 }
 
 header li {
-  margin-bottom: 0.5em;
-  cursor: pointer;
+	margin-bottom: 0.5em;
+	cursor: pointer;
 }
 
 header ul a {
-  text-decoration: none;
-  color: #ffffff !important;
-  margin: 0.5em;
-  padding: 0.5em;
-  font-size: 0.75em;
-  background-color: #0b5134;
-  border-style: outset;
-  border-width: 4px;
+	text-decoration: none;
+	color: #ffffff !important;
+	margin: 0.5em;
+	padding: 0.5em;
+	font-size: 0.75em;
+	background-color: #0b5134;
+	border-style: outset;
+	border-width: 4px;
+}
+
+.home img {
+	width: 100px;
+	height: 100px;
+	position: static;
+	margin: 0;
+	border-radius: 0.5em 0 0 0.5em;
+}
+
+.home {
+	width: 100px;
+	height: 100px;
 }
 
 footer {
-  display: flex;
-  background-color: #00651F;
-  justify-content: center;
-  margin: 1.5em;
-  padding: 0.5em;
-  border-radius: 0.5em;
-  clear: both;
+	display: flex;
+	background-color: #00651f;
+	justify-content: center;
+	margin: 1.5em;
+	padding: 0.5em;
+	border-radius: 0.5em;
+	clear: both;
 }
 
 footer p {
-  font-size: small;
+	font-size: small;
 }
 
-#recommendations h3 {
-  margin-top: 0.5em;
-}
-
-#recommendations h4 {
-  color: Grey;
-  margin-left: 0.5em;
-}
-
-#recommendations p {
-  margin: 0.2em;
-  margin-left: 0.5em;
-}
-
-#recommendations a {
-  display: block;
-  margin-left: 0.5em;
-}
-
-#archive-display {
-  width: 78%;
-  height: 82%;
-  border: 3px solid #ffffff
+#content {
+	width: 90%;
+	margin: auto;
+	clear: both;
 }
 
 a:link {
-  color: #73FCC5;
+	color: #73fcc5;
 }
 
 a:visited {
-  color: #33ff66;
+	color: #33ff66;
 }
 
 .news {
-  display: flex;
+	display: flex;
 }
 
 #recommendations {
-  margin: 1em;
+	position: relative;
+	width: 100%;
+	margin: 1em;
+	right: -10%;
 }
 
 #recommendations img {
-  margin: 0.5em;
+	margin: 0.5em;
+}
+
+#recommendations h3 {
+	margin-top: 0.5em;
+}
+
+#recommendations h4 {
+	color: Grey;
+	margin-left: 0.5em;
+}
+
+#recommendations p {
+	margin: 0.2em;
+	margin-left: 0.5em;
+}
+
+#recommendations a {
+	margin-left: 0.5em;
 }
 
 #Cover {
-  float: left;
-  bottom: 500px;
-  margin: 20px;
-  background-color: #50f354;
-  height: 250px;
+	float: left;
+	bottom: 500px;
+	margin: 20px;
+	background-color: #50f354;
+	height: 250px;
 }
 
 .article {
-  margin: 1em;
-  width: 60%;
+	margin: 1em;
 }
 
 .article-text {
-  border: dashed;
-  padding: 1em;
+	border: dashed;
+	padding: 1em;
+	line-height: 2em;
+}
+
+.archive {
+	height: 88%;
+}
+
+#archive-display {
+	width: 64%;
+	height: 90%;
+	border: 3px solid #ffffff;
 }
 
 div.sidebar {
-  border-style: solid;
-  background: #4d7f71;
-  position: relative;
-  float: right;
-  right: 0;
-  top: 0;
-  width: 20%;
-}
-
-h1.sidebar-head {
-  text-align: center;
+	border-style: solid;
+	background: #4d7f71;
+	position: relative;
+	float: right;
+	margin-bottom: 1em;
+	width: 30%;
 }
 
 div.sidebar ul li {
-  list-style-type: none;
-  padding: 1em;
-  cursor: pointer;
+	list-style-type: none;
+	padding: 1em;
+	cursor: pointer;
+}
+
+h1.sidebar-head {
+	text-align: center;
 }
 
 #webring {
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  justify-content: center;
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	justify-content: center;
 }
 
 #webring a {
-  display: block;
-  text-decoration: none;
-  padding: 0.2em;
-  margin: 3em;
-  border: 2px solid #73FCC5;
+	display: block;
+	text-decoration: none;
+	padding: 0.2em;
+	margin: 3em;
+	border: 2px solid #73fcc5;
 }
 
 @media screen and (max-width: 640px) {
-  body {
-    margin: 0;
-  }
+	body {
+		margin: 0;
+	}
 
-  header,
-  footer {
-    font-size: smaller;
-    margin: 0;
-    border-radius: 0;
-  }
+	header,
+	footer {
+		font-size: smaller;
+		margin: 0;
+		border-radius: 0;
+	}
 
-  header h1 {
-    font-size: large;
-  }
+	header h1 {
+		font-size: large;
+	}
 
-  .home img {
-    border-radius: 0;
-  }
+	.home img {
+		border-radius: 0;
+	}
 
-  header ul a {
-    margin: 0.25em;
-  }
+	header ul a {
+		margin: 0.25em;
+	}
 
-  .news {
-    flex-direction: column;
-    align-items: center;
-  }
+	.news {
+		flex-direction: column;
+		align-items: center;
+	}
 
-  .article {
-    width: 90%;
-  }
+	.article {
+		width: 90%;
+	}
 
-  #recommendations {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  div.sidebar {
-  float: none;
-  width: 90%;
-  margin: auto;
-  }
-  #archive-display {
-    margin: auto auto;
-    width: 90%;
-  }
+	#recommendations {
+		position: static;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	div.sidebar {
+		float: none;
+		width: 90%;
+		margin: auto;
+	}
+
+	#archive-display {
+		margin-left: unset;
+		margin: 1.5em auto;
+		display: block;
+		width: 90%;
+		height: 80vh;
+	}
+
+	.archive {
+		height: auto;
+	}
 }
